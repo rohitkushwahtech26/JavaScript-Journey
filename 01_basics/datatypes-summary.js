@@ -51,3 +51,29 @@ console.log(typeof bigNumber)     // bigint                    // bigint
 console.log(typeof heros)        //array                       // object
 console.log(typeof myObj)        //object                      // object
 console.log(typeof myFunction)   //function                    // function
+
+
+
+/*.....................................Memory.............................................*/
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myEmail = "rohitkushwah@mail.com"
+let email = myEmail
+email = "kushwahrohit"
+
+console.log(myEmail)
+console.log(email)
+
+let myObj2 = {
+    name : "Rohit Kushwah",
+    age : 23
+}
+
+let myObj3 = myObj2
+
+myObj3.name = "Kushwah rohit"
+
+console.log(myObj2.name)
+console.log(myObj3.name);
+
