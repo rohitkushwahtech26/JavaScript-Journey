@@ -31,9 +31,5 @@ console.log(newDate.getMinutes());
  
 
 console.log(newDate.toLocaleString('default', {
-    weekday : "narrow",
-})
-
-
-
-
+    weekday : "long",
+}))
